@@ -1,0 +1,100 @@
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+header {
+
+}
+.navbar {
+	height: 60px;
+}
+
+#logo {
+	position: relative;
+	top: -62px;
+	margin-left: 30px;
+}
+
+ul {
+	list-style: none;
+	overflow: hidden;
+	background: black;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	display: block;
+	padding: 20px;
+}
+
+li {
+	float: left;
+
+}
+
+li a:hover {
+	background: yellow;
+	color: black;
+
+}
+
+#home {
+	margin-left: 450px;
+}
+
+section {
+	height: 600px;
+	background: url(../images/background.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+
+
+.mypic {
+	height: 220px;
+	width: 220px;
+	margin: auto;
+	display: block;
+	padding: 10px;
+
+
+
+}
+
+ .descp {
+	 width: 60%;
+  font-size: 20px;
+  margin: 15px auto;
+	 border: 2px solid yellow;
+	 padding: 15px;
+	 background: rgba(0,0,0,0.3);
+	 color: white;
+}
+
+
+
+footer {
+	height: 100px;
+	background: black;
+}
+
+footer p {
+	color: white;
+	text-align: center;
+	font-size: 1.3em;
+	float: right;
+
+}
+
+.social-logo {
+	margin: 30px 0px 0px 20px;
+}
